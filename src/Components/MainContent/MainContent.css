@@ -1,0 +1,76 @@
+.main-header{
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+}
+
+.main-subheading{
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+    color: #8899A6;
+}
+
+/* Center the nav-pills-navigation div */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .nav-pills-navigation {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Add the rest of your styles for .main-header and .main-subheading here */
+  
+
+/* Media query for mobile devices (up to 768px wide) */
+@media (max-width: 768px) {
+   /* Center the nav-pills-navigation div */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center; /* Vertically center elements within .main-content */
+  }
+  
+  .main-header {
+    font-size: 1.5rem; /* Adjust the font size for smaller screens */
+    margin-top: 1rem; /* Further adjust the top margin for smaller screens */
+    color: white;
+    text-align: center;
+  }
+  
+  .main-subheading {
+    margin-top: 1rem; /* Further adjust the top margin for smaller screens */
+    font-size: 0.6rem;
+    width: 80%;
+    color: #8899A6;
+    text-align: center;
+  }
+  
+  .book-icon {
+    max-width: 30px; /* Adjust the maximum width of the book icon for smaller screens */
+  }
+  
+  .nav-pills-navigation {/* Adjust the top margin for smaller screens */
+    text-align: center;
+  }
+  
+  /* Reduce the overall size of nav-pills for mobile */
+  .nav-pills-navigation ul.nav-pills {
+    font-size: 0.8rem; /* Adjust the font size for smaller screens */
+  }
+  
+
+  
+  .nav-pills-navigation ul.nav-pills .nav-link {
+    padding: 0.25rem 0.5rem; /* Adjust padding to make pills more compact */
+  }
+  
+  }
