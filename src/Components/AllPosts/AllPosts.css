@@ -1,0 +1,50 @@
+/* Styles for default (desktop) view */
+.card {
+    max-width: 400px; /* Set a maximum width for the card */
+    margin: auto; /* Center the card horizontally */
+    background-color: #22303c; /* Set the background color to #22303c */
+    color: white; /* Set the text color to white */
+    margin-top: 2rem;
+    
+  }
+  
+  /* Reduce space between card-header and card-body */
+  .card-header {
+    margin-bottom: 0;
+  }
+
+  .card-title {
+    font-size: 0.9rem; /* Adjust the title font size for smaller screens */
+    line-height: 1.2rem;
+  }
+  .card-text {
+    font-size: 0.9rem; /* Adjust the text font size for smaller screens */
+    font-style: italic;
+    color: #8899A6 ;
+  }
+  
+  /* Media query for tablets (up to 768px wide) */
+  @media (max-width: 768px) {
+    .card {
+      max-width: 100%; /* Remove the maximum width to make it full width */
+    }
+  }
+  
+  /* Media query for mobile devices (up to 576px wide) */
+  @media (max-width: 576px) {
+    .card {
+      margin-top: 2rem;
+      width: 60%;
+      font-size: 0.65rem;
+    }
+    .card-title {
+      font-size: 0.6rem; /* Adjust the title font size for smaller screens */
+      line-height: 0.8rem;
+    }
+    .card-text {
+      font-size: 0.5rem; /* Adjust the text font size for smaller screens */
+      font-style: italic;
+      color: #8899A6 ;
+    }
+  }
+  
