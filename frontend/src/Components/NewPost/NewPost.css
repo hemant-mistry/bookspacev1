@@ -1,0 +1,77 @@
+/* NewPost.css */
+
+.new-post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14%;
+  }
+  
+  .new-post-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* Text color for the header */
+    margin-bottom: 20px;
+  }
+  
+  .new-post-form {
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%; /* Adjust the width as needed */
+    max-width: 400px; /* Set a max-width for responsiveness */
+    background-color: #22303c;
+    
+  }
+  
+  .form-label {
+    color: white; /* Label text color */
+  }
+  
+/* NewPost.css */
+
+/* Your existing styles... */
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #8899A6;
+    border-radius: 5px;
+    background-color: #8899A6;
+    color: #000;
+  }
+  
+  
+/* Media query for screens 768px and below (mobile) */
+@media screen and (max-width: 768px) {
+    .new-post-container {
+      margin-top: 40%; /* Adjust the margin for smaller screens */
+    }
+  
+    .new-post-header {
+      font-size: 1.5rem; /* Decrease the font size for the header */
+      margin-bottom: 2rem; /* Adjust the margin for the header */
+    }
+  
+    .new-post-form {
+      width: 80%; /* Increase the width for better mobile usability */
+      font-size: 0.6rem;
+    }
+    .new-post-form input  {
+        width: 90%; /* Increase the width for better mobile usability */
+        font-size: 0.6rem;
+        height: 4vh;
+      }
+      .new-post-form textarea  {
+        width: 90%; /* Increase the width for better mobile usability */
+        font-size: 0.6rem;
+
+      }
+      .new-post-form .btn  {
+        width: 40%; /* Increase the width for better mobile usability */
+        font-size: 0.6rem;
+        padding: 0.2rem;
+
+      }
+  }
