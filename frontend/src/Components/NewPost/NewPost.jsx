@@ -20,8 +20,7 @@ export default function NewPost() {
   
   const handleSubmit = (e) =>{
     e.preventDefault();
-    console.log('Genre', genre);
-    console.log('Quotes', quotes);
+    
     axiosPostData()
     
   };
